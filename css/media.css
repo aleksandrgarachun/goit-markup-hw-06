@@ -70,8 +70,34 @@
     .item-desc:not(:last-child) {
         margin-bottom: 72px;
     }
+    /* navigation*/
+    .logo-left-header {
+        padding: 16px;
+    }
+    .order-sec {
+        padding: 72px 0;
+    
+    }
+    .list-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+    }
+    .order-title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin: 0 auto;
+        margin-bottom: 72px;
+    }
+    .portfolio-img {
+        
+    }
 }
-
 
 
 
@@ -93,7 +119,8 @@
     }
     .img-portfolio:nth-last-child(1),
     .img-portfolio:nth-last-child(2){
-        margin-bottom: 72px;
+        /*margin-bottom: 72px;*/
+        margin-bottom: 0;
     }
     .container-person {
         max-width: 768px;
@@ -134,9 +161,67 @@
         display: inline;
 
     }
-        
-}
+    .order-sec {
+        padding: 112px 0;
 
+    }
+    .order-title {
+        font-size: 56px;
+        line-height: 1.47;
+        text-align: center;
+        letter-spacing: 0.02em;
+        line-height: 1.07;
+        color: #ffffff;
+        max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+    .list-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+}
+/*Mobile menu*/
+@media only screen and (max-width: 767.98px) {
+    .nav-menu {
+        display: none;
+    }
+    .address {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header-menu-btn {
+        display: none;
+    }
+    .logo-left-header {
+        padding: 25px 16px;
+    }
+    
+    .address-socials {
+        display: block;
+        padding: 16px;
+    }
+    .item-address {
+        padding: 0;
+    }
+    .item-address:not(:last-child) {
+        
+        margin-bottom: 12px;
+    }
+    .container-header-inner {
+        height: 72px;
+    }
+}
+/*End-of-mobile-menu*/
 
 
 
@@ -151,7 +236,13 @@
     }
     .img-portfolio {
         width: calc((100% - 48px) / 3);
-        padding-bottom: 48px;
+        /*margin-bottom: 72px;*/
+        
+    }
+    .img-portfolio:nth-last-child(1),
+    .img-portfolio:nth-last-child(2),
+    .img-portfolio:nth-last-child(3) {
+        margin-bottom: 72px;
     }
 
     .container-person {
@@ -219,12 +310,126 @@
        color: #2E2F42;
        margin-bottom: 8px;
    }
-   .img-portfolio {
+   /*.img-portfolio {
        background-color: #FFFFFF;
        height: 420px;
-       
-       
+   }*/
+   
+   .logo-left-header {
+       padding: 25px;
+       padding-left: 76px;
+   }
+   .right-logo-heder {
+       margin-right: 0;
    }
    
-   
+   .address-socials {
+       display: flex;
+       gap: 40px;
+       padding: 24px;
+   }
+   .item-address:not(:last-child) {
+       margin-bottom: 0;
+   }
+   .order-sec {
+       padding: 188px 0;
+
+   }
+   .list-portfolio {
+       display: flex;
+       flex-wrap: wrap;
+       column-gap: 24px;
+       row-gap: 48px;
+       justify-content: center;
+       align-items: center;
+   }
+
+}
+
+
+
+
+/*background-image*/
+/*Mobile*/
+@media only screen and (min-width: 320px) {
+    .order-sec {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 320px;
+        max-height: 432px;
+        /*возможно убрать везде*/
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/Dark-bg_mob.jpg);
+    }
+}
+
+@media only screen and (min-resolution: 192dpi) {
+    .order-sec {
+
+        max-width: 320px;
+        max-height: 432px;
+        /*возможно убрать везде*/
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/Dark-bg_mob@2x.jpg);
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 768px) {
+    .order-sec {
+        max-width: 768px;
+        max-height: 436px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/Dark-bg_tab.jpg);
+    }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .order-sec {
+        max-width: 768px;
+        max-height: 436px;
+        /*возможно убрать везде*/
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/Dark-bg_tab@2x.jpg);
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1158px) {
+    .order-sec {
+        max-width: 1158px;
+        max-height: 600px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/Dark-bg_desk.jpg);
+    }
+}
+
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .order-sec {
+        max-width: 1158px;
+        max-height: 600px;
+        /*возможно убрать везде*/
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-img/Dark-bg_desk@2x.jpg);
+    }
+}
+
+/*end-of-background-image*/
+
+/*Images for pottfolio*/
+@media only screen and (min-width: 1158px) {
+    .portfolio-img {
+        width: 360px;
+        height: 300px;
+
+            
+    }
+}
+@media only screen and (min-width: 768px) {
+    .portfolio-img {
+        width: 356px;
+        height: 300px;
+
+    
+    }
+}
+@media only screen and (min-width: 320px) { 
+    .portfolio-img {
+        width: 288px;
+        height: 280px;
+    }
 }

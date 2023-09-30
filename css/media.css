@@ -94,9 +94,21 @@
         margin: 0 auto;
         margin-bottom: 72px;
     }
-    .portfolio-img {
-        
+    /*end-navigation*/
+    .footer {
+        width: 320px;
+        height: 664px;
     }
+    .container-footer {
+        
+        max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+        display: block;
+        
+            
+    }
+
 }
 
 
@@ -184,6 +196,10 @@
         row-gap: 72px;
         justify-content: center;
         align-items: center;
+    }
+    .footer {
+        width: 768px;
+        height: 456px;
     }
     
     
@@ -342,6 +358,18 @@
        row-gap: 48px;
        justify-content: center;
        align-items: center;
+   }
+   .footer {
+       width: 1158px;
+       height: 312px;
+       
+   }
+   .container-footer {
+       max-width: 1158px;
+       padding: 0 15px;
+       margin: 0 auto;
+       display: flex;
+       align-items: baseline;
    }
 
 }

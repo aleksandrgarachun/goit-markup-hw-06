@@ -108,6 +108,45 @@
         
             
     }
+    .logo-left-footer,
+    .right-logo-footer {
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container-footer-logo {
+        margin: 0 auto 72px;
+    }
+    .paragraph-footer-social {
+        display: flex;
+        justify-content: center;
+    }
+    .list-socials-footer {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        margin-bottom: 72px;
+    }
+    .subscribe-footer {
+        margin-left: 0;
+    }
+
+    .email-line {
+        display: block;
+        
+    }
+    .paragraph-subscribe {
+        display: flex;
+        justify-content: center;
+    }
+    .email-footer {
+        width: 288px;
+        margin-bottom: 16px;
+    }
+    .footer-button {
+        margin: 0 auto;
+    }
 
 }
 
@@ -201,7 +240,44 @@
         width: 768px;
         height: 456px;
     }
-    
+    .logo-left-footer,
+    .right-logo-heder {
+        
+        display: inline-flex;
+    }
+    .paragraph-footer-social {
+        display: block;
+    }
+    .list-socials-footer {
+        display: flex;
+        gap: 16px;
+        justify-content: left;
+        margin-bottom: 0;
+    }
+    .email-line {
+        display: flex;
+        gap: 24px;
+
+    }
+    .paragraph-subscribe {
+        display: block;
+        
+    }
+    .email-footer {
+        width: 264px;
+        margin-bottom: 0;
+    }
+    .footer-button {
+        margin: 0;
+    }
+    .container-footer {
+        padding: 0 24px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 108px;
+        gap: 24px;
+    }
     
     
 }
@@ -371,8 +447,70 @@
        display: flex;
        align-items: baseline;
    }
+   .container-footer-logo {
+        margin-right: 60px;
+   }
+   /*.logo-left-footer {
+       margin-right: 0;
+       display: flinline-block;
+       
+   }*/
+   .logo-left-footer,
+   .right-logo-heder {
+       display: inline-flex;
+       margin-right: 76px;
+   }
+   .paragraph-footer-social {
+       display: block;
+   }
+   .list-socials-footer {
+       display: flex;
+       gap: 16px;
+       justify-content: left;
+        margin-bottom: 0;
+        margin-right: 80px;
+   }
+    .email-line {
+        display: flex;
+        gap: 24px;
 
+    }
+    .paragraph-subscribe {
+        display: block;
+
+    }
+    .email-footer {
+        width: 264px;
+        margin-bottom: 0;
+    }
+    .footer-button {
+        margin: 0;
+    }
+    .container-footer {
+        flex-wrap: nowrap;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -437,6 +575,11 @@
 }
 
 /*end-of-background-image*/
+
+
+
+
+
 
 /*Images for pottfolio*/
 @media only screen and (min-width: 1158px) {

@@ -584,10 +584,7 @@ textarea {
 
 
 /* Modal*/
-/*
-.is-hidden {
-    display: none;
-}*/
+
 .backdrop {
     position: fixed;
     top: 0;

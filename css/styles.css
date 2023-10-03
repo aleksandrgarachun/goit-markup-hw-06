@@ -246,7 +246,7 @@ textarea {
 }
 .list-desc {
     display: flex;
-    gap: 24px;
+    /*gap: 24px;*/
 }
 
 .item-desc {
